@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure Login JWT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow"></div>
+  <main class="app">
+    <section class="hero">
+      <span class="badge">Java + Spring Security + JWT</span>
+      <h1>Secure Login</h1>
+      <p>Sistema de autenticação com token JWT, senha criptografada e banco H2.</p>
+    </section>
+
+    <section class="card" id="authCard">
+      <div class="tabs">
+        <button id="loginTab" class="active" onclick="setMode('login')">Login</button>
+        <button id="registerTab" onclick="setMode('register')">Cadastro</button>
+      </div>
+
+      <form id="authForm">
+        <input id="nome" placeholder="Nome completo" class="hidden" />
+        <input id="email" type="email" placeholder="E-mail" required />
+        <input id="senha" type="password" placeholder="Senha" required />
+        <button type="submit" id="submitBtn">Entrar</button>
+      </form>
+
+      <p id="message"></p>
+    </section>
+
+    <section class="dashboard hidden" id="dashboard">
+      <div class="dashboard-header">
+        <div>
+          <span class="badge success">Área protegida</span>
+          <h2>Bem-vindo, <span id="userName"></span></h2>
+          <p id="userEmail"></p>
+        </div>
+        <button class="logout" onclick="logout()">Sair</button>
+      </div>
+
+      <div class="token-box">
+        <strong>JWT ativo:</strong>
+        <code id="tokenPreview"></code>
+      </div>
+
+      <div class="features">
+        <div>🔐 Token validado</div>
+        <div>🗄️ Banco H2 ativo</div>
+        <div>🧠 BCrypt na senha</div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

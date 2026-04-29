@@ -1,0 +1,8 @@
+com/joaovitor/auth/AuthRequest.class
+com/joaovitor/auth/SecurityConfig.class
+com/joaovitor/auth/AuthController.class
+com/joaovitor/auth/User.class
+com/joaovitor/auth/JwtService.class
+com/joaovitor/auth/UserRepository.class
+com/joaovitor/auth/AuthResponse.class
+com/joaovitor/auth/AuthApplication.class

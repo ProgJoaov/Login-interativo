@@ -1,0 +1,8 @@
+/home/runner/workspace/src/main/java/com/joaovitor/auth/JwtService.java
+/home/runner/workspace/src/main/java/com/joaovitor/auth/AuthRequest.java
+/home/runner/workspace/src/main/java/com/joaovitor/auth/SecurityConfig.java
+/home/runner/workspace/src/main/java/com/joaovitor/auth/User.java
+/home/runner/workspace/src/main/java/com/joaovitor/auth/AuthResponse.java
+/home/runner/workspace/src/main/java/com/joaovitor/auth/UserRepository.java
+/home/runner/workspace/src/main/java/com/joaovitor/auth/AuthApplication.java
+/home/runner/workspace/src/main/java/com/joaovitor/auth/AuthController.java
